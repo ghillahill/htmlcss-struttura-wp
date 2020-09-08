@@ -34,8 +34,9 @@ aside.left{
 
 main{
     background-color: purple;
-    height: 400px;
-    width: 400px;
+    height: 385px;
+    width: calc(385px - 15px);
+    margin: 0 15px;
     float: left;
 }
 
@@ -52,5 +53,5 @@ aside.bot{
 footer{
     margin-top: 10px;
     background-color: lightblue;
-    height: 60px;
+    height: 65px;
 }
