@@ -3,3 +3,54 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#wrapper{
+    width: 1000px;
+    margin: auto;
+}
+
+header{
+    background-color: yellow;
+    height: 175px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.container::after{
+    content: "";
+    display:table;
+    clear: both;
+}
+
+aside{
+    background-color: pink;
+    height: 300px;
+    width: 300px;
+}
+
+aside.left{
+    float:left;
+}
+
+main{
+    background-color: purple;
+    height: 400px;
+    width: 400px;
+    float: left;
+}
+
+aside.right{
+    float: right;
+    height: 175px;
+}
+
+aside.bot{
+    margin-top: 15px;
+}
+
+
+footer{
+    margin-top: 10px;
+    background-color: lightblue;
+    height: 60px;
+}
